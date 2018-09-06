@@ -1,0 +1,39 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Kevin May">
+    <meta name="description" content="A web app used for clocking in/out">
+
+    <title>Time Management App</title>
+    <link rel="icon" href="clock.ico" />
+    <!-- css links -->
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+</head>
+
+<body id="body" onload="loadMe()">
+
+    <!-- <header id="header"></header> -->
+
+    <div class="greeting">
+        <div id="greet1"></div>
+        <div id="weather"></div>
+        <nav id="nav-bar"><a href="timesheet.html" id="nav-text">TS</a></nav>
+        <div id="greet2"></div>
+    </div>
+
+    <!-- box for clock in/ out info-->
+
+    <div class="wrapper">
+        <div id="currTime"></div>
+        <input type="button" id="btn" value="Clock In">
+    </div>
+
+
+    <script src="app2.js"></script>
+</body>
+
+</html>
